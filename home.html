@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+<!--            comment-->
+		</div>
+		<h1>Rapid Spotting Online Review Spam Using Machine Learning</h1>
+		
+	</div>
+	</header>
+
+	<div class="ml-container">
+
+		<form action="{{ url_for('predict')}}" method="POST">
+		<h3>Enter Your Message Here</h3>
+		
+		<textarea name="message" rows="20" cols="80"></textarea>
+		<br/>
+
+		<input type="submit" class="btn-info" value="predict">
+		
+	{% if prediction == 1%}
+	<h2 style="color:red;">Spam Detected</h2>
+	{% elif prediction == 0%}
+	<h2 style="color:blue;">Not a Spam (It is a Ham)</h2>
+	{% endif %}
+
+	</form>
+		
+	</div>
+
+	
+	
+</body>
+</html>

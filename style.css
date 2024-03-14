@@ -1,0 +1,65 @@
+body{
+	font:15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 0px;
+	background-image:url("../static/bg.jpg");
+}
+
+.container{
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.ml-container{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+
+}
+
+header{
+	/* background:#8db2c2; */
+	background-image:url("../static/bg.jpg");
+	/* border-bottom:#448AFF 3px solid; */
+	height:120px;
+	width:100%;
+	padding-top:30px;
+
+}
+
+.main-header{
+	text-align:center;
+	background-color: #8db2c2;
+	height:100px;
+	width:100%;
+	margin:0px;
+		}
+#brandname{
+	float:left;
+	font-size:30px;
+	color: #fff;
+	margin: 10px;
+}
+
+header h1{
+	text-align:center;
+	color:black;
+	font-size: 40px;
+
+}
+
+
+
+.btn-info {background-color: #6698dd;
+	height:40px;
+	width:100px;} /* Blue */
+.btn-info:hover {background: #0b7dda;}
+
+
+.resultss{
+	border-radius: 15px 50px;
+    background: #345fe4;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+}
