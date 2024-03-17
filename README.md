@@ -149,3 +149,8 @@ The results of the system showed a high level of accuracy and precision in detec
 
 Overall, the proposed system provides an effective solution for detecting and filtering out spam content from various online platforms, improving the quality of user-generated content and enhancing the user experience. Further research and development can be done to improve the performance and scalability of the system, and to explore additional use cases for the technology.
 
+
+
+
+Commands to run
+open Anaconda prompt->copy the file path->run->python app.py->copy the link and open in the chrome/microsoft edge
