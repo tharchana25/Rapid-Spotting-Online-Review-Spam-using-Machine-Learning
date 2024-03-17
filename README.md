@@ -152,5 +152,8 @@ Overall, the proposed system provides an effective solution for detecting and fi
 
 
 
+
 Commands to run
+
+
 open Anaconda prompt->copy the file path->run->python app.py->copy the link and open in the chrome/microsoft edge
